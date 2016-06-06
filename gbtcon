@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ipmitool -U admin -P password -I lanplus -H $1 sol activate
+

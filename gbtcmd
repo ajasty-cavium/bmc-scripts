@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ipmitool -U admin -P password -I lan -H $@

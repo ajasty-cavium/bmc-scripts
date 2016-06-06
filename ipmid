@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ipmitool -U admin -P admin -I lanplus -H $@ chassis identify
